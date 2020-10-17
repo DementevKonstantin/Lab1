@@ -10,7 +10,8 @@ int is_simple(long int number)
       if (number % x == 0)
       {
         return 0;
-      }   
+      }
+    }
   }
   return 1;  
   }
