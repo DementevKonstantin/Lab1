@@ -27,6 +27,6 @@ int main(void)
 {
   long int number;
   printf("enter_the_number: ");
-  scanf("%lx", &number);
+  scanf("%li", &number);
   printf("%d", is_simple(number));
 }
